@@ -1,0 +1,46 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="560" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="fKFGO_FsFHc1gsCAdMJW-0" value="//5. kirjuta muutuja mille andmetüüp veel ei ole teada, ning omista talle väärtuseks tekst: valge lehma taga musta lehma saba&#xa;//kirjuta ka teine muutuja, mille andmetüüp veel ei ole teada, ning omista talle väärtuseks tekst: kirju lehma taga pruuni lehma saba&#xa;//tee uus muutuja kuhu liidad eelnevad muutujad kokku. lisa nende vahele punkt ja tühik.&#xa;//kuva uus muutuja välja" style="text;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="90" width="560" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fKFGO_FsFHc1gsCAdMJW-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fKFGO_FsFHc1gsCAdMJW-1" target="fKFGO_FsFHc1gsCAdMJW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fKFGO_FsFHc1gsCAdMJW-1" value="Algus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="290" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fKFGO_FsFHc1gsCAdMJW-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fKFGO_FsFHc1gsCAdMJW-2" target="fKFGO_FsFHc1gsCAdMJW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fKFGO_FsFHc1gsCAdMJW-2" value="Tekita var-tüüpi muutuja nimega &quot;kelleVäänaja&quot; mille sisse omistame teksti &quot;valge lehma taga musta lehma saba&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="192.5" y="430" width="245" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fKFGO_FsFHc1gsCAdMJW-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fKFGO_FsFHc1gsCAdMJW-4" target="fKFGO_FsFHc1gsCAdMJW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fKFGO_FsFHc1gsCAdMJW-4" value="Tekita var-tüüpi muutuja nimega &quot;kelleVäänaja2&quot; mille sisse omistame teksti &quot;kirju lehma taga pruuni lehma saba&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="192.5" y="600" width="245" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fKFGO_FsFHc1gsCAdMJW-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fKFGO_FsFHc1gsCAdMJW-6" target="fKFGO_FsFHc1gsCAdMJW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fKFGO_FsFHc1gsCAdMJW-6" value="Tekita var-tüüpi muutuja nimega &quot;kelleVäänaja2&quot; mille sisse omistame konkateneeritud teksti muutujast &quot;keeleVäänaja&quot;+&quot;.&quot;+ ja &quot;keeleVäänaja2&quot;.&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="192.5" y="750" width="245" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fKFGO_FsFHc1gsCAdMJW-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fKFGO_FsFHc1gsCAdMJW-8" target="fKFGO_FsFHc1gsCAdMJW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fKFGO_FsFHc1gsCAdMJW-8" value="Kuva kasutajale muutuja &quot;keeleVäänaja3&quot; välja." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="192.5" y="890" width="245" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fKFGO_FsFHc1gsCAdMJW-10" value="Lõpp" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="228.75" y="1080" width="172.5" height="95" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
