@@ -1,4 +1,6 @@
-﻿namespace CYCLES
+﻿using System.Reflection.Metadata;
+
+namespace CYCLES
 {
     internal class Program
     {
@@ -66,6 +68,15 @@
             // tsükli tegevusena kuva kasutajale välja i, aga liida sellele üks juurde et lugemine algaks arvust 1
             // peale tsüklit kuva kasutajale sõnum "tsükkel lõppes"
 
+            int kuiPalju = 0;
+            Console.WriteLine("Mitu numbrit te tahate?");
+            kuiPalju = int.Parse(Console.ReadLine());
+            for (int i = 0; i < kuiPalju; i++)
+            {
+                Console.WriteLine(i + 1);
+            }
+            Console.WriteLine("Tsükkel lõppes");
+
             // 2. "Ruut"
             // tee muutuja "ruudukülg" milles on täisarv 0
             // kuva kasutajale tekst millega küsid kasutajalt kui suurt ruutu ta tahab
@@ -77,19 +88,19 @@
             // kui sisemine tsükkel on lõpetanud, siis kuva kasutajale see rida välja
             // kui ka esimene tsükkel on lõpetanud, siis kuva kasutajale tekst "tsüklid on lõpetanud"
 
-            int ruuduKülg = 0;
-            Console.WriteLine("Kui suurt ruutu te tahate");
-            ruuduKülg = int.Parse(Console.ReadLine());
-            for (int i = 0; i < ruuduKülg; i++)
-            {
-                string seeRida = "";
-                for (int j = 0; j < ruuduKülg; j++)
-                {
-                    seeRida = seeRida + "HH";
-                }
-                Console.WriteLine(seeRida);
-            }
-            Console.WriteLine("Tsüklid on lõpetanud");
+            //int ruuduKülg = 0;
+            //Console.WriteLine("Kui suurt ruutu te tahate");
+            //ruuduKülg = int.Parse(Console.ReadLine());
+            //for (int i = 0; i < ruuduKülg; i++)
+            //{
+            //    string seeRida = "";
+            //    for (int j = 0; j < ruuduKülg; j++)
+            //    {
+            //        seeRida = seeRida + "HH";
+            //    }
+            //    Console.WriteLine(seeRida);
+            //}
+            //Console.WriteLine("Tsüklid on lõpetanud");
 
 
             /* Foreach + list ülesanded */
