@@ -1,0 +1,70 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="541" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="7WhA3SP1gAu5y9JlH1AE-0" value="// 1. &quot;arvuta kuni summani&quot;&#xa;// tee muutuja &quot;täisarv&quot; mille sees on täisarv 0&#xa;// kirjuta do while tsükkel&#xa;// tsükli tegevusena lahuta muutujast &quot;täisarv&quot; maha 2&#xa;// ja kuva muutuja &quot;täisarv&quot; välja&#xa;// -&gt; do while tsükli tingimuseks kirjuta kontroll, mis kontrollib kas muutujas &quot;täisarv&quot; on arv miinuses rohkem kui -31&#xa;// peale tsüklit kuva sõnum &quot;tsükkel lõppes&quot;" style="text;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="50" width="560" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7WhA3SP1gAu5y9JlH1AE-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7WhA3SP1gAu5y9JlH1AE-1" target="7WhA3SP1gAu5y9JlH1AE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7WhA3SP1gAu5y9JlH1AE-1" value="Algus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="230" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7WhA3SP1gAu5y9JlH1AE-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7WhA3SP1gAu5y9JlH1AE-2" target="7WhA3SP1gAu5y9JlH1AE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7WhA3SP1gAu5y9JlH1AE-2" value="Tekita muutuja &quot;täisArv&quot; millele omistame algväärtuse 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="350" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7WhA3SP1gAu5y9JlH1AE-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7WhA3SP1gAu5y9JlH1AE-4" target="7WhA3SP1gAu5y9JlH1AE-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7WhA3SP1gAu5y9JlH1AE-4" value="Omista muutujale &quot;täisArv&quot; uus väärtus, kus on olemasolevast väärtusest kaks maha lahutatud" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="530" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7WhA3SP1gAu5y9JlH1AE-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7WhA3SP1gAu5y9JlH1AE-6" target="7WhA3SP1gAu5y9JlH1AE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7WhA3SP1gAu5y9JlH1AE-6" value="Kuva kasutajale muutuja &quot;täisarv&quot; välja" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="420" y="680" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7WhA3SP1gAu5y9JlH1AE-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7WhA3SP1gAu5y9JlH1AE-8" target="7WhA3SP1gAu5y9JlH1AE-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7WhA3SP1gAu5y9JlH1AE-14" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7WhA3SP1gAu5y9JlH1AE-13">
+          <mxGeometry x="-0.0774" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7WhA3SP1gAu5y9JlH1AE-8" value="Kas muutuja &quot;täisArv&quot; on väiksem kui -31" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="840" width="180" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="7WhA3SP1gAu5y9JlH1AE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.909;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7WhA3SP1gAu5y9JlH1AE-8" target="7WhA3SP1gAu5y9JlH1AE-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="902" />
+              <mxPoint x="710" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7WhA3SP1gAu5y9JlH1AE-11" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7WhA3SP1gAu5y9JlH1AE-10">
+          <mxGeometry x="-0.0901" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7WhA3SP1gAu5y9JlH1AE-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7WhA3SP1gAu5y9JlH1AE-12" target="7WhA3SP1gAu5y9JlH1AE-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7WhA3SP1gAu5y9JlH1AE-12" value="Kuva kasutajale tekst &quot;Tsükkel lõppes&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="1010" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7WhA3SP1gAu5y9JlH1AE-15" value="Lõpp" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="1130" width="140" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

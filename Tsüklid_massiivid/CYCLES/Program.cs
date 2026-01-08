@@ -16,6 +16,15 @@ namespace CYCLES
             // -> do while tsükli tingimuseks kirjuta kontroll, mis kontrollib kas muutujas "täisarv" on arv miinuses rohkem kui -31
             // peale tsüklit kuva sõnum "tsükkel lõppes"
 
+            int täisArv = 0;
+            do
+            {
+                täisArv -= 2;
+                Console.WriteLine(täisArv);
+            }
+            while (täisArv < -31);
+            Console.WriteLine("Tsükkel lõppes");
+
             // 2. "pikenda sõnumit"
             // tee muutuja "sõnum" mille sees on tühi string, nt ""
             // kirjuta do while tsükkel
