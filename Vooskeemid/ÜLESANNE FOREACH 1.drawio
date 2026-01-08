@@ -1,0 +1,95 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="908" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-0" value="// 1. &quot;suured summad&quot;&#xa;// kirjuta viie elemendiga massiiv, elemendid on 1,50,10,15,20, muutuja nimi otsusta ise.&#xa;// kirjuta foreach tsükkel, ja võta kollektsiooniparameetriks oma viie elemendiga massiivi muutuja nimetus&#xa;// tsükli sisse tee tingimuslause, mis kontrollib kas element on suurem kui 15&#xa;// kui on suurem, siis kuva see element kasutajale välja&#xa;/* vihje, &#xa; * kui programm on õigesti kirjutatud, &#xa; * siis kuvatakse kasutajale välja elemendid kakskümmend ja viiskümmend&#xa; */" style="text;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="150" width="600" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l5zF5o-x6We6_xzEtRA5-1" target="l5zF5o-x6We6_xzEtRA5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-1" value="Algus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="334" y="360" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l5zF5o-x6We6_xzEtRA5-2" target="l5zF5o-x6We6_xzEtRA5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-2" value="Tekita muutuja &quot;apelsiniMahl&quot; kus asub massiiv, millele omistame algväärtuste kogemiku täisarvudega 1, 50, 10, 15 ja 20" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="274" y="517" width="280" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l5zF5o-x6We6_xzEtRA5-4" target="l5zF5o-x6We6_xzEtRA5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-4" value="Seadista foreach tsükkel, kus elemendi ajutise muutuja nimi on &quot;arv&quot; ja kollektsiooni muutuja on &quot;apelsiniMahl&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="276" y="720" width="276" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l5zF5o-x6We6_xzEtRA5-6" target="l5zF5o-x6We6_xzEtRA5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-13" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l5zF5o-x6We6_xzEtRA5-9">
+          <mxGeometry x="-0.2453" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l5zF5o-x6We6_xzEtRA5-6" target="l5zF5o-x6We6_xzEtRA5-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="1500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="979" />
+              <mxPoint x="290" y="1470" />
+              <mxPoint x="414" y="1470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-20" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l5zF5o-x6We6_xzEtRA5-19">
+          <mxGeometry x="-0.126" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-6" value="Kas praegune element on kollektsioonis viimane element?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="316" y="900" width="196" height="157" as="geometry" />
+        </mxCell>
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l5zF5o-x6We6_xzEtRA5-8" target="l5zF5o-x6We6_xzEtRA5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-12" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l5zF5o-x6We6_xzEtRA5-11">
+          <mxGeometry x="-0.2369" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l5zF5o-x6We6_xzEtRA5-8" target="l5zF5o-x6We6_xzEtRA5-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="532" y="1199" />
+              <mxPoint x="532" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-17" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l5zF5o-x6We6_xzEtRA5-16">
+          <mxGeometry x="0.0704" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-8" value="Kas ajutises muutujas &quot;arv&quot; olev väärtus on suurem kui 15?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="316" y="1120" width="196" height="157" as="geometry" />
+        </mxCell>
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l5zF5o-x6We6_xzEtRA5-10" target="l5zF5o-x6We6_xzEtRA5-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="1395" />
+              <mxPoint x="550" y="979" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-10" value="Kuva kasutajale muutuja &quot;arv" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="316" y="1350" width="196" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="l5zF5o-x6We6_xzEtRA5-18" value="Lõpp" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="354" y="1490" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
