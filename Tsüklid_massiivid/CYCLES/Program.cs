@@ -79,7 +79,18 @@
 
             int ruuduKülg = 0;
             Console.WriteLine("Kui suurt ruutu te tahate");
-            Console.ReadLine();
+            ruuduKülg = int.Parse(Console.ReadLine());
+            for (int i = 0; i < ruuduKülg; i++)
+            {
+                string seeRida = "";
+                for (int j = 0; j < ruuduKülg; j++)
+                {
+                    seeRida = seeRida + "HH";
+                }
+                Console.WriteLine(seeRida);
+            }
+            Console.WriteLine("Tsüklid on lõpetanud");
+
 
             /* Foreach + list ülesanded */
 
